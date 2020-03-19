@@ -37,7 +37,7 @@ public:
 
   double Area() override
   {
-    double p = Perimeter();
+    double p = Perimeter() / 2;
     return sqrt(p * (p - a) * (p - b) * (p - c));
   }
 };
