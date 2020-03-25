@@ -14,8 +14,8 @@ protected:
 
 public:
   virtual string Name() = 0;
-  virtual string Perimeter() = 0;
-  virtual string Area() = 0;
+  virtual double Perimeter() = 0;
+  virtual double Area() = 0;
 
   virtual ~Figure() = default;
 };
@@ -26,8 +26,8 @@ public:
   Triangle(int a, int b, int c);
 
   string Name() override;
-  string Perimeter() override;
-  string Area() override;
+  double Perimeter() override;
+  double Area() override;
 };
 
 class Rect : public Figure
@@ -35,8 +35,8 @@ class Rect : public Figure
 public:
   Rect(int a, int b);
   string Name() override;
-  string Perimeter() override;
-  string Area() override;
+  double Perimeter() override;
+  double Area() override;
 };
 
 class Circle : public Figure
@@ -44,8 +44,8 @@ class Circle : public Figure
 public:
   Circle(int a);
   string Name() override;
-  string Perimeter() override;
-  string Area() override;
+  double Perimeter() override;
+  double Area() override;
 };
 
 #endif  // FIGURES_H

@@ -14,14 +14,14 @@ string Triangle::Name()
   return _name;
 }
 
-string Triangle::Perimeter()
+double Triangle::Perimeter()
 {
-  return to_string(_perimetr);
+  return _perimetr;
 }
 
-string Triangle::Area()
+double Triangle::Area()
 {
-  return to_string(_area);
+  return _area;
 }
 
 Rect::Rect(int a, int b)
@@ -36,14 +36,14 @@ string Rect::Name()
   return _name;
 }
 
-string Rect::Perimeter()
+double Rect::Perimeter()
 {
-  return to_string(_perimetr);
+  return _perimetr;
 }
 
-string Rect::Area()
+double Rect::Area()
 {
-  return to_string(_area);
+  return _area;
 }
 
 Circle::Circle(int a)
@@ -58,12 +58,12 @@ string Circle::Name()
   return _name;
 }
 
-string Circle::Perimeter()
+double Circle::Perimeter()
 {
-  return to_string(_perimetr);
+  return _perimetr;
 }
 
-string Circle::Area()
+double Circle::Area()
 {
-  return to_string(_area);
+  return _area;
 }
