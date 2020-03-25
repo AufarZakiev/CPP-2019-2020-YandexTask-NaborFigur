@@ -4,4 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        figures.cpp \
         main.cpp
+
+HEADERS += \
+    figures.h
