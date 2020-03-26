@@ -124,7 +124,7 @@ shared_ptr<Figure> CreateFigure(istringstream& is)
     circle = make_shared<Circle>(radius);
     return circle;
   }
-  return shared_ptr<Figure>();
+  throw "Wrong figure";
 };
 
 int main()
