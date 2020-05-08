@@ -4,4 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        geometry.cpp \
         main.cpp
+
+HEADERS += \
+    geometry.h
